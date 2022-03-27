@@ -1,0 +1,13 @@
+---
+version: "3"
+
+services:
+  nrfmonitor:
+    image: nrfmonitor:latest
+    container_name: nrfmonitor
+    restart: unless-stopped
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    command: "--mqtt ${MQTT_IP}"
+
+    build: .
