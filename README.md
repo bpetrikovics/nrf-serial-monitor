@@ -1,8 +1,6 @@
 # NRF Serial Monitor
 
-[![CodeQL](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/codeql-analysis.yml)
-
-[![Docker](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/docker-image.yml/badge.svg)](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/cdocker-image.yml)
+[![CodeQL](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/codeql-analysis.yml) [![Docker](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/docker-image.yml/badge.svg)](https://github.com/bpetrikovics/nrf-serial-monitor/actions/workflows/cdocker-image.yml)
 
 
 A small tool I use to receive data from my self-built IOT sensors. Probably not really useful to
